@@ -17,10 +17,10 @@ app.listen(port, () => {
 const mysql = require('mysql');
 
 var con = mysql.createConnection({
-  host: "tomberg.mysql.tools",
-  user: "tomberg_galitski",
-  password: "46+uMS7xr%",
-  database: "tomberg_galitski"
+  host: "d26893.mysql.zonevs.eu",
+  user: "d26893_busstops",
+  password: "3w7PYquFJhver0!KdOfF",
+  database: "d26893_busstops"
 });
 
 con.connect(function(err) {
