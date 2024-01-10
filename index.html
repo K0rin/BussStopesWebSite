@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test</title>
+  <link href="style.css" rel="stylesheet">
+  <link href="bootstrap.css" rel="stylesheet">
+  <style>
+  </style>
+</head>
+<body>
+
+<!-- Combo box with type entry -->
+<select id="combo-box-area" onchange="handleGetArea(), getStopsList()">
+</select>
+
+<!-- Textbox for typing an entry -->
+<select id="combo-box-middle" onchange="handleGetArea(), getStopsList()">
+</select>
+
+<select id="combo-box-stops" onchange="handleStops(), getBusList()">
+</select>
+
+<div id="bus-list"></div>
+
+<div id="location-info" class="alert alert-dark"></div>
+
+<div id="buss-time-info"></div>
+
+<!-- Include the frontend.js file -->
+<script src="frontend.js"></script>
+
+</body>
+</html>

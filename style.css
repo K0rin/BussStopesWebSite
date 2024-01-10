@@ -1,0 +1,51 @@
+#combo-box-area{
+    width: 30%;
+}
+
+#combo-box-stops{
+    width: 30%;
+}
+
+#combo-box-middle{
+  visibility: hidden;
+  width: 38%;
+}
+
+#bus-list{
+  margin-top: 10px;
+  width: 100%;
+}
+
+#location-info{
+  margin-top: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+#buss-time-info{
+  margin-top: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.buss-button{
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+
+select {
+    padding: 5px;
+    font-size: 14px;
+}
+
+input {
+    padding: 5px;
+    font-size: 14px;
+}
